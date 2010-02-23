@@ -17,5 +17,7 @@ tmtags
 coverage
 rdoc
 pkg
+doc
 
 ## PROJECT::SPECIFIC
+spec/fixtures/log/*.log
