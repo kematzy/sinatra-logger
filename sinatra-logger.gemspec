@@ -44,16 +44,16 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<sinatra>, [">= 01.10.1"])
+      s.add_runtime_dependency(%q<sinatra>, [">= 0.10.1"])
       s.add_development_dependency(%q<rspec>, [">= 1.3.0"])
       s.add_development_dependency(%q<sinatra-tests>, [">= 0.1.6"])
     else
-      s.add_dependency(%q<sinatra>, [">= 01.10.1"])
+      s.add_dependency(%q<sinatra>, [">= 0.10.1"])
       s.add_dependency(%q<rspec>, [">= 1.3.0"])
       s.add_dependency(%q<sinatra-tests>, [">= 0.1.6"])
     end
   else
-    s.add_dependency(%q<sinatra>, [">= 01.10.1"])
+    s.add_dependency(%q<sinatra>, [">= 0.10.1"])
     s.add_dependency(%q<rspec>, [">= 1.3.0"])
     s.add_dependency(%q<sinatra-tests>, [">= 0.1.6"])
   end

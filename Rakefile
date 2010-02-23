@@ -10,7 +10,7 @@ begin
     gem.email = "kematzy@gmail.com"
     gem.homepage = "http://github.com/kematzy/sinatra-logger"
     gem.authors = ["kematzy"]
-    gem.add_dependency( "sinatra", ">= 01.10.1")
+    gem.add_dependency( "sinatra", ">= 0.10.1")
     gem.add_development_dependency( "rspec", ">= 1.3.0")
     gem.add_development_dependency( "sinatra-tests", ">= 0.1.6")
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
