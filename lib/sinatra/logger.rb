@@ -10,9 +10,6 @@ module Sinatra
   # 
   # == Installation
   # 
-  #   #  Add Gemcutter to your RubyGems sources 
-  #   $  gem sources -a http://gemcutter.com
-  # 
   #   $  (sudo)? gem install sinatra-logger
   # 
   # == Dependencies
@@ -21,7 +18,7 @@ module Sinatra
   # 
   # === Runtime:
   # 
-  # * sinatra ( >= 1.0.a )
+  # * sinatra ( >= 1.0 )
   # * logger
   # 
   # === Development & Tests:

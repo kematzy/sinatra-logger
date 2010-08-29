@@ -5,9 +5,6 @@ A Sinatra extension that makes logging within Your apps easy.
 
 == Installation
 
-  #  Add Gemcutter to your RubyGems sources 
-  $  gem sources -a http://gemcutter.com
-
   $  (sudo)? gem install sinatra-logger
 
 == Dependencies
@@ -16,7 +13,7 @@ This Gem depends upon the following:
 
 === Runtime:
 
-* sinatra ( >= 1.0.a )
+* sinatra ( >= 1.0 )
 * logger
 
 === Development & Tests:
