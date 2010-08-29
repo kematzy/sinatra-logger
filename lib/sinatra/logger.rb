@@ -1,5 +1,4 @@
 
-require 'sinatra/base'
 require 'logger'
 
 module Sinatra 
@@ -40,9 +39,27 @@ module Sinatra
   # 
   #   class YourApp < Sinatra::Base
   # 
+  #     # NB! you need to set the root of the app first
+  #     # set :root, '/path/2/the/root/of/your/app'
+  #     
   #     register(Sinatra::Logger)
+  #     
   #     <snip...>
+  #     
   #   end
+  # 
+  # 
+  # In your "classic" Sinatra app, you just require the extension like this:
+  # 
+  #   require 'rubygems'
+  #   require 'sinatra'
+  #   require 'sinatra/logger'
+  # 
+  #   # NB! you need to set the root of the app first
+  #   # set :root, '/path/2/the/root/of/your/app'
+  # 
+  #   <snip...>
+  # 
   # 
   # Then in your App's route or helper method declarations, just use the <tt>#logger</tt>...
   # 
@@ -181,5 +198,7 @@ module Sinatra
     end #/ self.registered
     
   end #/module Logger
+  
+  register(Sinatra::Logger)
   
 end #/ Sinatra
