@@ -2,6 +2,10 @@
 
 A Sinatra extension that makes logging within Your apps easy.
 
+== UNSUPPORTED / DEPRECATED
+
+Please use Minnodes sinatra-logger[https://github.com/minodes/sinatra-logger] instead of this version.
+
 
 == Installation
 
